@@ -1,0 +1,65 @@
+/* Home.css */
+
+/* Dark Mode */
+:root {
+    --background-dark: #333;
+    --text-dark: #fff;
+  }
+  
+  /* Light Mode */
+  :root {
+    --background-light: #fff;
+    --text-light: #333;
+  }
+  
+  /* Common Styles */
+  body {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode Styles */
+  body.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  /* Navigation Bar */
+  nav {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode Navigation Bar */
+  nav.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
+  
+  /* Task Items */
+  .task-item {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+    /* Add other task item styles here */
+  }
+  
+  /* Dark Mode Task Items */
+  .task-item.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+    /* Add other dark mode task item styles here */
+  }
+  footer {
+    background-color: var(--background-light);
+    color: var(--text-light);
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  /* Dark Mode Navigation Bar */
+  footer.dark {
+    background-color: var(--background-dark);
+    color: var(--text-dark);
+  }
